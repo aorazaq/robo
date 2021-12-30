@@ -1,0 +1,51 @@
+body{
+	background-color: skyblue;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+h1{
+	border: 2px solid brown;
+	background-color: rgba(0,225,0,0.6);
+	display: grid;
+	grid-template-columns: 1fr;
+
+}
+.head{
+	text-align: center;
+}
+h2{
+	border-bottom: 2px solid rgba(255,0,0,0.5);
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+li{
+	font-weight: 0.75em;
+	pointer-events: hand;
+}
+.cross {
+	pointer-events: hand;
+	text-decoration: line-through;
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.done{
+	display:block;
+}
+
+.delclass{
+	display: flex;
+	color: green;
+}
+.taskclass{
+	font-weight: 2em;
+	font-style: bold;
+	text-transform: uppercase;
+
+}
